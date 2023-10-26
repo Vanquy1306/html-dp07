@@ -5,24 +5,144 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --primary: #f9d347;
+}
 html {
-  font-size: 50%;
+  font-size: 62.5%;
 }
 
 body {
   font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
 }
 
 a {
   text-decoration: none;
 }
 
+li {
+  list-style: none;
+}
+
 .wrapper_ngoc {
-  max-width: 70%;
+  max-width: 80%;
   margin: auto;
-  margin-top: 50px;
-  padding: 12px 15px;
-  background-color: #f9d347;
+  margin-top: 3rem;
+  padding: 1.5rem 2.5rem;
   border-radius: 15px;
   box-shadow: 3px 3px 8px #888888;
+}
+
+/* CARD TOP */
+
+/* CARD TOP LEFT */
+.wrapper_ngoc .nav_links {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.wrapper_ngoc .nav_links a {
+  color: #000;
+  padding: 0 1.2rem;
+}
+
+.wrapper_ngoc .card_top_main {
+  margin: 2rem 0;
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper_ngoc .card_top_left,
+.wrapper_ngoc .card_top_right {
+  flex: 1;
+}
+
+.wrapper_ngoc .card_top_left .img_personal {
+  width: 38rem;
+  height: 28rem;
+  object-fit: cover;
+}
+
+.wrapper_ngoc .card_top_left .img_nums {
+  width: 80%;
+  margin-top: 1rem;
+}
+.wrapper_ngoc .card_top_left .img_nums span {
+  position: relative;
+  margin-right: 7.5rem;
+}
+.wrapper_ngoc .card_top_left .img_nums span::before {
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 0;
+  background-color: #000;
+  width: 9rem;
+  height: 2px;
+}
+.wrapper_ngoc .card_top_left .img_nums span.active {
+  color: var(--primary);
+}
+.wrapper_ngoc .card_top_left .img_nums span.active:before {
+  background-color: var(--primary);
+}
+
+/* CARD TOP RIGHT */
+.wrapper_ngoc .card_top_right {
+  font-size: 1.3rem;
+  display: flex;
+}
+.wrapper_ngoc .info {
+  width: 70%;
+}
+.wrapper_ngoc .info .greeting {
+  padding-top: 1.3rem;
+}
+.wrapper_ngoc .info .name {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+.wrapper_ngoc .info .experiences {
+  font-size: 1rem;
+  padding: 2rem 0 3.5rem;
+}
+.wrapper_ngoc .info .experiences li {
+  padding-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+.wrapper_ngoc .info .experiences ion-icon {
+  color: var(--primary);
+  font-size: 1.4rem;
+  padding-right: 1rem;
+}
+
+.wrapper_ngoc .info .social_links {
+  font-size: 1.5rem;
+}
+.wrapper_ngoc .info .social_links a {
+  color: #000;
+  margin-right: 2rem;
+}
+.wrapper_ngoc .btns button {
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 1rem;
+  padding: 0.8rem 1.2rem;
+  margin-bottom: 1rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+}
+.wrapper_ngoc .btns button:last-child {
+  color: white;
+  background-color: #000;
+}
+.wrapper_ngoc .btns ion-icon {
+  font-size: 1.5rem;
+  padding-right: 1rem;
 }
