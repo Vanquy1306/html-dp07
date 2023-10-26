@@ -1,0 +1,94 @@
+/*basic layout*/
+.contact {
+  width: 400px;
+  max-width: 90%;
+  height: auto;
+  padding: 40px 40px 30px 40px;
+  box-sizing: border-box;
+  margin: 50px auto;
+  overflow: hidden;
+
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.3);
+  background: linear-gradient(to right, rgb(150, 225, 239), rgb(31, 190, 243));
+  border-radius: 5px;
+}
+
+/*header*/
+.contact img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 100%;
+}
+.contact h1 {
+  width: 100%;
+  height: auto;
+  padding: 10px 0 5px 0;
+  display: block;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.9rem;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+
+  color: #000;
+  background: none;
+}
+.contact h2 {
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+  display: block;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1em;
+  text-align: center;
+
+  color: #aaa;
+  background: none;
+}
+
+.contact hr {
+  width: 50%;
+  height: 0;
+  padding: 0;
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #ddd;
+}
+
+.contact p {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+  display: block;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: justify;
+}
+
+.contact i {
+  font-size: 30px;
+}
+.contact span {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact span i {
+  font-size: 40px;
+}
+
+.contact span a {
+  color: #000;
+}
+.contact span a:hover {
+  color: #1639e7;
+}
