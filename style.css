@@ -29,13 +29,15 @@ li {
   max-width: 80%;
   margin: auto;
   margin-top: 1.5rem;
-  padding: 1.5rem 2.5rem;
+  margin-bottom: 1.5rem;
   border-radius: 15px;
   box-shadow: 3px 3px 8px #888888;
 }
 
 /* CARD TOP */
-
+.wrapper_ngoc .card_top {
+  padding: 1.5rem 2.5rem 0;
+}
 /* CARD TOP LEFT */
 .wrapper_ngoc .nav_links {
   font-size: 1rem;
@@ -62,18 +64,21 @@ li {
 }
 
 .wrapper_ngoc .card_top_left .img_personal {
-  width: 38rem;
+  width: 42rem;
   height: 28rem;
   object-fit: cover;
 }
 
 .wrapper_ngoc .card_top_left .img_nums {
-  width: 80%;
+  width: 90%;
   margin-top: 1rem;
 }
 .wrapper_ngoc .card_top_left .img_nums span {
   position: relative;
-  margin-right: 7.5rem;
+  margin-right: 9rem;
+}
+.wrapper_ngoc .card_top_left .img_nums span:last-child {
+  margin-right: 0;
 }
 .wrapper_ngoc .card_top_left .img_nums span::before {
   content: "";
@@ -81,7 +86,7 @@ li {
   top: -5px;
   left: 0;
   background-color: #000;
-  width: 9rem;
+  width: 9.5rem;
   height: 2px;
 }
 .wrapper_ngoc .card_top_left .img_nums span.active {
@@ -159,18 +164,16 @@ li {
   display: flex;
   justify-content: space-between;
   position: relative;
-}
-.wrapper_ngoc .card_bottom_left,
-.wrapper_ngoc .card_bottom_right {
-  flex: 1;
+  border-radius: 0 0 1.5rem 1.5rem;
 }
 
 .wrapper_ngoc .card_bottom_left .container,
 .wrapper_ngoc .card_bottom_right .container {
-  max-width: 85%;
+  max-width: 90%;
 }
+.wrapper_ngoc .card_bottom_left .container,
 .wrapper_ngoc .card_bottom_right .container {
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 .wrapper_ngoc .card_heading {
   display: flex;
@@ -196,7 +199,7 @@ li {
 }
 
 .wrapper_ngoc .card_bottom_left .project {
-  background-color: red;
+  background-color: #fff;
   padding: 2rem 2.5rem;
   position: relative;
 }
