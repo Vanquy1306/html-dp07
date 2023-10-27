@@ -1,0 +1,44 @@
+body {
+    background-color: #f3eeee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#icon {
+    width: 400px;
+    margin: 40px auto;
+    background-color: #9bb9d9;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#icon img {
+    max-width: 50px;
+    vertical-align: middle;
+    border-radius: 11px;
+}
+
+#icon a {
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+#icon p {
+    margin-left: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.back {
+    text-decoration: none;
+    background-color: #1d8df5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 220px;
+    right: 570px;
+}
