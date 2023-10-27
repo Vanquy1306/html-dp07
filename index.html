@@ -1,21 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+      <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css_hieu/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="./ngoc/style-ngoc.css">
+    <link rel="stylesheet" href="minh/minh.css">
+    <link rel="stylesheet" href="hello/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="duy/duy.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Contact Card</title>
   </head>
-  
   <body>
-    <div class="contact-card">
+      <div class="card-minh">
+        <div class="welcome-minh">
+          <div class="welcome-minh-children">
+          <h1 class="card-heading-minh">Hi, I am Minh</h1>
+          <p>I am a intern from team Zero T at Devplus, Nice to meet you.</p>
+          </div>
+        </div>
+        <div class="start-chatting-minh">
+          <h2 class="card-heading-minh">Start Chatting</h2>
+          <div class="rep-info">
+            <img src="minh/minh.jpg" >
+            <div class="name-minh">
+              <p>Minh Ho</p>
+            </div>
+            <div class="status"data-status="active">Active</div>
+          </div>
+          <a href="https://www.facebook.com/michaelminh2010/" target="_blank" class="button">Send Message</a>
+          <a href="https://www.linkedin.com/in/hoxuanminh26/" target="_blank" class="button">My Linkedin</a>
+        </div>
+      </div>
+ <div class="card-dai">    
+    <div id="profile">
+      <div class="profile_dai">
+      <h1>My Profile</h1>
+    </div>
+      <div class="profile-info">
+        <img src="image/dai.png" class="r-image" />
+        <div>
+          <h2>Trần Văn Đại</h2>
+          <p>Tuổi: 21</p>
+          <p>Sinh viên năm 3</p>
+          <div>
+            <p>
+              <a href="hello/hello.html" class="contact-link">Contact me</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <p>Xin chào! Tôi là một sinh viên đam mê với ngành máy tính.</p>
+    </div>
+  </div> 
+    <section class="wrapper_ngoc">
+      <div class="container">
+        <div class="card_top">
+          <nav class="nav_links">
+            <a href="#">my CV</a>
+            <a href="#">Experience</a>
+            <a href="#">education</a>
+            <a href="#">hobbies</a>
+            <a href="#">prize</a>
+          </nav>
+
+          <div class="card_top_main">
+            <div class="card_top_left">
+              <img src="./image/img_personal.avif" class="img_personal" alt="personal image">
+
+              <div class="img_nums">
+                <span class="active">01</span>
+                <span>02</span>
+                <span>03</span>
+                <span>04</span>
+              </div>
+            </div>
+
+            <div class="card_top_right">
+              <div class="info">
+                <p class="greeting">Hello 👋</p>
+                <h1 class="name">Tong T.K.Ngoc</h1>
+                <p class="job">Intern Web Developer</p>
+
+                <ul class="experiences">
+                  <li><ion-icon name="add-outline"></ion-icon> University of Greenwich (Da Nang)
+                  </li>
+                  <li><ion-icon name="add-outline"></ion-icon> Major: Information of Technology
+                  </li>
+                  <li><ion-icon name="add-outline"></ion-icon> Good understanding of web development with Node.js,
+                    React.js, HTML5, CSS3, and SCSS (Sass).</li>
+                  <li><ion-icon name="add-outline"></ion-icon> Be able to worked with project management process:
+                    Agile/Scrum, Waterfall</li>
+                </ul>
+
+                <ul class="social_links">
+                  <a href="https://github.com/ngoctong-3107" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                  <a href="https://www.facebook.com/npearll7/" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                  <a href="mailto:npearll7@gmail.com">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.instagram.com/npearl7/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                  <a href="#">
+                    <ion-icon name="logo-google"></ion-icon>
+                  </a>
+                </ul>
+              </div>
+
+              <div class="btns">
+                <button><ion-icon name="eye-outline"></ion-icon></ion-icon>View full profile</button>
+                <button><ion-icon name="pencil-outline"></ion-icon>Edit profile</button>
+                <button><ion-icon name="arrow-redo-outline"></ion-icon>Share profile</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_bottom">
+          <div class="card_bottom_left">
+            <div class="container">
+              <div class="card_heading">
+                <h3 class="title">Projects</h3>
+                <p class="role">Role: Frontend Developer <ion-icon name="caret-down"></ion-icon></p>
+              </div>
+              <div class="project">
+                <h3 class="project_name">Ideas Management</h3>
+                <p class="project_desc">
+                  A system that can manage ideas and employees in each academic year.
+                  <br /> <br />
+                  4 roles: Admin, Qa Manager,
+                  Qa Coordinator, Staff
+                </p>
+                <p class="project_time">2023-02-18</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="card_bottom_right">
+            <div class="container">
+              <div class="card_heading">
+                <h3 class="title">Technology</h3>
+              </div>
+
+              <div class="tech_list">
+                <p class="tech_item">JavaScript</p>
+                <p class="tech_item">TypeScript</p>
+                <p class="tech_item">Object-Oriented Programming</p>
+                <p class="tech_item">Nodejs</p>
+                <p class="tech_item">ReactJs</p>
+                <p class="tech_item">NextJs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- the contact card -->
+    <div class="contact">
+      <img src="ava1.jpg" />
+      <h1>Phan Quoc Hieu</h1>
+      <h2>Web Developer</h2>
+
+    
+      <hr />
+    
+      <!-- bio -->
+      <p>
+        Phan Quốc Hiếu sinh ngày 18 tháng 6 năm 2001 tại Tam Kỳ, Quảng Nam. Là
+        một thực tập sinh tại DevPlus. Mong muốn trở thành Web Developer.`
+      </p>
+    
+      <!-- Icon contact -->
+      <span>
+        <a href="https://www.facebook.com/hieudz1123/">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a href="https://github.com/hieuphan1806">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="/">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </span>
+    </div>
+    <div class="duy-middle">
+    <div class="contact-card-duy">
       <div class="contact-card-header">
-        <img src="duy/hoangduy1.png" alt="Avatar" class="avatar">
+        <img src="duy/hoangduy1.png" class="avatar-duy">
   
       </div>
       <div class="contact-card-body">
-        <div class="info">
+        <div class="info-duy">
           <h4> <i class="fa fa-user"></i> Nguyen Hoang Duy</h4>
           <p>Intern at DevPlus</p>
           <h4><i class="fas fa-envelope"></i> duymapqsqt@gmail.com</h4>
@@ -25,12 +217,12 @@
           <h4><i class="fas fa-map-marker-alt"></i> 104 Mai Lao Bang</h4>
           <p>Address</p>
         </div>
-        <div class="contact">
-          <a href="https://www.facebook.com/duy.nguyen.632002" class="button">Send Message</a>
+        <div class="contact-duy">
+          <a href="https://www.facebook.com/duy.nguyen.632002" class="button-duy">Send Message</a>
   
         </div>
       </div>
     </div>
+  </div>
   </body>
-  
-  </html>
+</html>

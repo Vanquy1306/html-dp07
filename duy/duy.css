@@ -1,17 +1,25 @@
 body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 1000px;
-  margin: 0;
+ 
+   
+  place-content: center;
+ 
+ 
+ 
+ 
 }
-.contact-card {
+.duy-middle {
+  place-content: center;
+display:grid;
+
+}
+.contact-card-duy {
   background-color: #fff;
   border-radius: 40px;
   box-shadow: 0 4px 8px rgba(11, 61, 153, 0.2);
   overflow: hidden;
   width: 450px;
+ 
+ 
 }
 .contact-card-header {
   background-color: #19bda1;
@@ -23,27 +31,27 @@ body {
 .contact-card-body {
   padding: 50px;
   width: auto;
-  height: 280px;
+  height: 400px;
 }
-.avatar {
+.avatar-duy {
   border-radius: 50%;
   width: 250px;
-  height: 450px;
+  height: 400px;
 }
 
-.info h4 {
+.info-duy h4 {
   font-size: 18px;
   margin: 12px;
   display: flex;
   align-items: center;
 }
-.info p {
+.info-duy p {
   font-size: 15px;
   font-weight: normal;
   color: #999;
   margin: 0;
   margin-top: -10px;
-  margin-left: 50px;
+  margin-right: 100px;
 }
 .contact-card-body i {
   margin-right: 8px;
@@ -53,12 +61,12 @@ body {
 
 }
 
-.contact {
+.contact-duy {
   text-align: center;
   padding: 30px;
 }
 
-.button {
+.button-duy {
   padding: 15px;
   background: #19bda1;
   color: black;
@@ -67,4 +75,5 @@ body {
   font-size: 18px;
   background-size: 100%;
   align-items: center;
+  
 }
