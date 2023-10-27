@@ -59,7 +59,7 @@ body {
     
 }
 
-.welcome-minh div { 
+.welcome-minh-children { 
     padding-top: 1rem;
     grid-column: 2 / 3;
 }
