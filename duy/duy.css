@@ -1,0 +1,79 @@
+body {
+ 
+   
+  place-content: center;
+ 
+ 
+ 
+ 
+}
+.duy-middle {
+  place-content: center;
+display:grid;
+
+}
+.contact-card-duy {
+  background-color: #fff;
+  border-radius: 40px;
+  box-shadow: 0 4px 8px rgba(11, 61, 153, 0.2);
+  overflow: hidden;
+  width: 450px;
+ 
+ 
+}
+.contact-card-header {
+  background-color: #19bda1;
+  text-align: center;
+  padding: 28px;
+  width: auto;
+  height: 400px;
+}
+.contact-card-body {
+  padding: 50px;
+  width: auto;
+  height: 400px;
+}
+.avatar-duy {
+  border-radius: 50%;
+  width: 250px;
+  height: 400px;
+}
+
+.info-duy h4 {
+  font-size: 18px;
+  margin: 12px;
+  display: flex;
+  align-items: center;
+}
+.info-duy p {
+  font-size: 15px;
+  font-weight: normal;
+  color: #999;
+  margin: 0;
+  margin-top: -10px;
+  margin-right: 100px;
+}
+.contact-card-body i {
+  margin-right: 8px;
+  color: #4d7fff;
+  font-size: 30px;
+  
+
+}
+
+.contact-duy {
+  text-align: center;
+  padding: 30px;
+}
+
+.button-duy {
+  padding: 15px;
+  background: #19bda1;
+  color: black;
+  border: 10;
+  border-radius: 25px;
+  font-size: 18px;
+  background-size: 100%;
+  align-items: center;
+  
+}
