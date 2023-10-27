@@ -1,6 +1,5 @@
 body {
     background-color: #f3eeee;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -12,9 +11,11 @@ body {
     background-color: #fff;
     padding: 30px;
     border-radius: 10px;
+   
+    
 }
 
-h1 {
+ .profile_dai {
     text-align: center;
     color: #1d8df5;
 }
@@ -31,7 +32,7 @@ h1 {
 }
 
 .profile-info p {
-    line-height: 0.5;
+    line-height: 1.5;
     margin-right: 20px;
     color: #16528a;
     display: flex;
@@ -51,4 +52,10 @@ h1 {
     background-color: #1d8df5;
     padding: 10px 16px;
     border-radius: 8px;
+}
+
+.card-dai {
+    place-content: center;
+    display:grid;
+    padding: 24px 24px 24px 24px;
 }

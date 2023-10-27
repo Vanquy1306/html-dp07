@@ -8,9 +8,9 @@
 
 body {
     font-family: system-ui;
-    text-align: center;
-    min-height: 100vh;
-    display: grid;
+    
+    
+    
     place-content: center;
     background: rgba(128, 128, 128, 0.25);
    
@@ -36,13 +36,16 @@ body {
 
 .card-minh {
     display: grid;
+    place-content: center;
     grid-template-columns: 4rem 20rem 4rem ;
     grid-template-rows: repeat(3, auto);
+    text-align: center;
 }
 
 .card-heading-minh {
     font-size: 1.25rem;
     font-weight: 600;
+    
 }
 
 .welcome-minh {
