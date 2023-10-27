@@ -1,31 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Card by VanDal</title>
+    <title>Contact Card - ZeroT</title>
+    <link rel="stylesheet" href="./ngoc/style-ngoc.css">
     <link rel="stylesheet" href="index.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </head>
 
-<body>
+  <body>
     <div id="profile">
-        <h1>My Profile</h1>
-        <div class="profile-info">
-            <img src="/image/avt.png" alt="Avatar" class="r-image" />
-            <div>
-                <h2>Trần Văn Đại</h2>
-                <p>Tuổi: 21</p>
-                <p>Sinh viên năm 3</p>
-                <div>
-                    <p>
-                        <a href="/hello/hello.html" class="contact-link">Contact me</a>
-                    </p>
-                </div>
-            </div>
+      <h1>My Profile</h1>
+      <div class="profile-info">
+        <img src="/image/avt.png" alt="Avatar" class="r-image" />
+        <div>
+          <h2>Trần Văn Đại</h2>
+          <p>Tuổi: 21</p>
+          <p>Sinh viên năm 3</p>
+          <div>
+            <p>
+              <a href="/hello/hello.html" class="contact-link">Contact me</a>
+            </p>
+          </div>
         </div>
-        <p>Xin chào! Tôi là một sinh viên đam mê với ngành máy tính.</p>
+      </div>
+      <p>Xin chào! Tôi là một sinh viên đam mê với ngành máy tính.</p>
     </div>
-</body>
+
+    <section class="wrapper_ngoc">
+      <div class="container">
+        <div class="card_top">
+          <nav class="nav_links">
+            <a href="#">my CV</a>
+            <a href="#">Experience</a>
+            <a href="#">education</a>
+            <a href="#">hobbies</a>
+            <a href="#">prize</a>
+          </nav>
+
+          <div class="card_top_main">
+            <div class="card_top_left">
+              <img src="./image/img_personal.avif" class="img_personal" alt="personal image">
+
+              <div class="img_nums">
+                <span class="active">01</span>
+                <span>02</span>
+                <span>03</span>
+                <span>04</span>
+              </div>
+            </div>
+
+            <div class="card_top_right">
+              <div class="info">
+                <p class="greeting">Hello 👋</p>
+                <h1 class="name">Tong T.K.Ngoc</h1>
+                <p class="job">Intern Web Developer</p>
+
+                <ul class="experiences">
+                  <li><ion-icon name="add-outline"></ion-icon> University of Greenwich (Da Nang)
+                  </li>
+                  <li><ion-icon name="add-outline"></ion-icon> Major: Information of Technology
+                  </li>
+                  <li><ion-icon name="add-outline"></ion-icon> Good understanding of web development with Node.js,
+                    React.js, HTML5, CSS3, and SCSS (Sass).</li>
+                  <li><ion-icon name="add-outline"></ion-icon> Be able to worked with project management process:
+                    Agile/Scrum, Waterfall</li>
+                </ul>
+
+                <ul class="social_links">
+                  <a href="https://github.com/ngoctong-3107" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                  <a href="https://www.facebook.com/npearll7/" target="_blank">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                  <a href="mailto:npearll7@gmail.com">
+                    <ion-icon name="mail-outline"></ion-icon>
+                  </a>
+                  <a href="https://www.instagram.com/npearl7/" target="_blank">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                  <a href="#">
+                    <ion-icon name="logo-google"></ion-icon>
+                  </a>
+                </ul>
+              </div>
+
+              <div class="btns">
+                <button><ion-icon name="eye-outline"></ion-icon></ion-icon>View full profile</button>
+                <button><ion-icon name="pencil-outline"></ion-icon>Edit profile</button>
+                <button><ion-icon name="arrow-redo-outline"></ion-icon>Share profile</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card_bottom">
+          <div class="card_bottom_left">
+            <div class="container">
+              <div class="card_heading">
+                <h3 class="title">Projects</h3>
+                <p class="role">Role: Frontend Developer <ion-icon name="caret-down"></ion-icon></p>
+              </div>
+              <div class="project">
+                <h3 class="project_name">Ideas Management</h3>
+                <p class="project_desc">
+                  A system that can manage ideas and employees in each academic year.
+                  <br /> <br />
+                  4 roles: Admin, Qa Manager,
+                  Qa Coordinator, Staff
+                </p>
+                <p class="project_time">2023-02-18</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="card_bottom_right">
+            <div class="container">
+              <div class="card_heading">
+                <h3 class="title">Technology</h3>
+              </div>
+
+              <div class="tech_list">
+                <p class="tech_item">JavaScript</p>
+                <p class="tech_item">TypeScript</p>
+                <p class="tech_item">Object-Oriented Programming</p>
+                <p class="tech_item">Nodejs</p>
+                <p class="tech_item">ReactJs</p>
+                <p class="tech_item">NextJs</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 
 </html>
