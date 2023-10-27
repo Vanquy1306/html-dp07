@@ -21,14 +21,14 @@ body {
 }
 
 .profile-info {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .profile-info h2 {
-    margin-right: 20px;
-    color: #1d8df5;
+  margin-right: 20px;
+  color: #1d8df5;
 }
 
 .profile-info p {
@@ -39,11 +39,11 @@ body {
 }
 
 .r-image {
-    margin-left: 50px;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    order: 2;
+  margin-left: 50px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  order: 2;
 }
 
 .contact-link {
